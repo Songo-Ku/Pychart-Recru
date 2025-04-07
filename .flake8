@@ -1,0 +1,16 @@
+[flake8]
+max-line-length = 98
+# Zaleca się 79 znaków na linię (PEP 8)
+ignore = E203, E231
+# Ignorowanie niektórych błędów (np. E203 związany z dwukropkiem w argumentach)
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    .tox,
+    .nox,
+    .coverage,
+    dist,
+    build,
+    .venv,
+    # Wykluczenie folderów i plików z analizy

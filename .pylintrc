@@ -1,0 +1,12 @@
+[MASTER]
+ignore=.venv,tests/*  # Ignoruj folder tests (jeśli chcesz, aby testy nie były analizowane przez Pylinta)
+max-line-length=95  # Maksymalna długość linii (PEP 8 zaleca 79 znaków)
+# optionally add also tests as .venv,tests/*
+
+[MESSAGES CONTROL]
+disable=C0111  # Wyłączenie ostrzeżenia o brakujących docstringach (możesz to włączyć, jeśli chcesz egzekwować docstringi)
+
+[REPORTS]
+output-format=colorized  # Kolorowe podświetlanie wyników analizy
+
+

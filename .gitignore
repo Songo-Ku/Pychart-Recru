@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtualenv
+.env
+.venv/
+venv/
+ENV/
+env/
+# Poetry virtualenv (local venv, but usually handled outside project dir)
+#poetry.lock
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# pytest and unittest
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# flake8
+#.flake8
+
+# pylint
+pylint-report.txt
+pylint-output.txt
+
+# mypy
+.mypy_cache/
+
+# Sphinx
+docs/_build/
+docs/_static/
+docs/_autosummary/
+
+# Make
+*.dSYM
+*.o
+*.out
+*.obj
+*.a
+*.lo
+*.la
+*.al
+*.so
+*.exe
+*.bak
+
+# Mac OS
+.DS_Store
